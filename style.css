@@ -1,0 +1,89 @@
+body {
+    background-color: #e8dfc8;
+}
+
+.h1 {
+    color: #fff609;
+    font-size: 20px;
+    margin-left: 200px;
+}
+
+.navbar {
+    Display: flex;
+    align-items: center;
+    background-color: #2e2c27;
+    height: 50px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+div{
+    margin-right: 200px;
+}
+
+nav a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.menu {
+    background-color: #fff609;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    position: absolute;
+    background-color: #2e2c27;
+    height: 70px;
+    width: 100%;
+    bottom: 0;
+}
+
+.icones {
+    display: flex;
+    justify-content: center;
+}
+
+.twitter {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.facebook {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.youtube {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.instagram {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.copyright {
+    color: #fff609;
+    font-size: 14px;
+    margin-top: 5px;
+}
