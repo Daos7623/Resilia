@@ -9,7 +9,7 @@ body {
 }
 
 .navbar {
-    Display: flex;
+    display: flex;
     align-items: center;
     background-color: #2e2c27;
     height: 50px;
@@ -17,7 +17,7 @@ body {
     width: 100%;
 }
 
-div{
+.divmenu{
     margin-right: 200px;
 }
 
@@ -33,6 +33,24 @@ nav a {
     text-decoration: none;
 }
 
+.divposter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 50px;
+}
+
+.poster {
+    width: 200px;
+    height: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: solid;
+}
+
 footer {
     display: flex;
     justify-content: center;
@@ -42,7 +60,6 @@ footer {
     background-color: #2e2c27;
     height: 70px;
     width: 100%;
-    bottom: 0;
 }
 
 .icones {
@@ -50,31 +67,7 @@ footer {
     justify-content: center;
 }
 
-.twitter {
-    height: 30px;
-    width: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 5px;
-}
-
-.facebook {
-    height: 30px;
-    width: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 5px;
-}
-
-.youtube {
-    height: 30px;
-    width: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 5px;
-}
-
-.instagram {
+.redes {
     height: 30px;
     width: 30px;
     margin-left: 10px;
